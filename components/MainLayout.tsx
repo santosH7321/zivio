@@ -3,7 +3,9 @@ import { FC } from "react"
 
 const MainLayout: FC<ChildrenInterface> = ({children}) => {
   return (
-    <div>{children}</div>
+    <div>
+      {children}
+    </div>
   )
 }
 
