@@ -1,7 +1,9 @@
+import ChildrenInterface from "@/interfaces/children-interface"
+import { FC } from "react"
 
-const MainLayout = () => {
+const MainLayout: FC<ChildrenInterface> = ({children}) => {
   return (
-    <div>MainLayout</div>
+    <div>{children}</div>
   )
 }
 
