@@ -1,9 +1,9 @@
-import React from 'react'
+import Signup from '@/components/signup'
 
-const Signup = () => {
+const SignupRouter = () => {
   return (
-    <div>Signup</div>
+    <Signup />
   )
 }
 
-export default Signup
+export default SignupRouter
