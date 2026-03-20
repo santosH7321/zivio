@@ -7,10 +7,10 @@ const ListBucket = () => {
   return (
     <Card className='bg-linear-to-r from-rose-500 to-amber-400 shadow-none border-0'>
     <CardHeader>
-        <CardTitle className='text-lg text-white'>coding school</CardTitle>
+        <CardTitle className='text-lg text-white'>coding-school</CardTitle>
         <CardDescription className='text-white'>March 20, 2026</CardDescription>
         <CardAction>
-          <Link href={`/app/library/codingott-systems`}>
+          <Link href={`/app/library/coding-school`}>
             <Button variant="outline">
                 <ExternalLink />
                 Explore
